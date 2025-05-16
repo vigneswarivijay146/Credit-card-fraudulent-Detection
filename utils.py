@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from tensorflow.keras.models import load_model
 
-model = load_model('/content/fraud_detection_model.h5')
+model = load_model('fraud_detection_model.h5')
 
 def preprocess_input(df):
     df = df.copy()
