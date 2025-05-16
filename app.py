@@ -9,7 +9,7 @@ st.set_page_config(page_title="Fraud Detection Bank Simulation", layout="centere
 st.title("🏦 Bank Transaction Fraud Detection Simulator")
 
 #sample_data = pd.read_csv("/content/sample_inputs.csv")
-all_data = pd.read_csv("/content/sample_inputsFinal.csv")
+all_data = pd.read_csv("sample_inputsFinal.csv")
 sample_data = all_data.sample(n=10)
 
 if "logs" not in st.session_state:
